@@ -32,7 +32,7 @@ taskA(5, 1)
   })
   .then((b_res) => {
     console.log("Task B RESULT : ", b_res);
-    return taskC(b_res)
+    return taskC(b_res);
   })
   .then((c_res) => {
     console.log("Task C RESULT : ", c_res);
